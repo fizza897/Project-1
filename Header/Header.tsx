@@ -3,10 +3,9 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-    <div className='w-screen h-24 bg-green-950'>
-        <h1>Hello</h1>
+    <div>
+      <h1>Header</h1>
     </div>
-   <div className=''></div>
     </>
   )
 }
