@@ -8,7 +8,7 @@ const Header = () => {
     <div className='ml-11'>
       <Image src={"/Images/DdsgnrLibrary.png"} width={120} height={120} alt='abc'/>
     </div>
-    <div className=''>
+    <div className='space-x-11 mr-28'>
       <Link className='' href={"/"}>Home</Link>
       <Link href={"/"}>Courses</Link>
       <Link href={"/"}>Services</Link>
