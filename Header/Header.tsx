@@ -1,23 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Button } from '@/components/ui/button'
 const Header = () => {
   return (
     <>
-    <div className='bg-[#F7F7F7] flex mt-4   '>
+    <div className='bg-primary flex mt-4   '>
     <div className='ml-11'>
       <Image src={"/Images/DdsgnrLibrary.png"} width={120} height={120} alt='abc'/>
     </div>
-    <div className='space-x-11 mr-28'>
-      <Link className='' href={"/"}>Home</Link>
-      <Link href={"/"}>Courses</Link>
-      <Link href={"/"}>Services</Link>
-      <Link href={"/"}>Achievement</Link>
-      <Link href={"/"}>About Us</Link>
-      <Link href={"/"}>Testimonial</Link>
+    <div className='space-x-6 ml-32'>
+      <Link className='text-black mt-5' href={"/"}>Home</Link>
+      <Link className='text-black mt-1.5' href={"/"}>Courses</Link>
+      <Link className='text-black mt-1.5' href={"/"}>Services</Link>
+      <Link className='text-black mt-1.5' href={"/"}>Achievement</Link>
+      <Link className='text-black mt-1.5' href={"/"}>About Us</Link>
+      <Link className='text-black mt-1.5' href={"/"}>Testimonial</Link>
     </div>
-    <div>
-
+    <div className='space-x-3 ml-64 '>
+      <Button className=' rounded-md border-black border  text-black'>SignUp</Button>
+      <Button className='bg-black border rounded-md  text-primary'>Login</Button>
     </div>
     </div>
     </>
