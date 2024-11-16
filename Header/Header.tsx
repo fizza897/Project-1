@@ -4,12 +4,12 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 const Header = () => {
   return (
-    <div className='container'>
-    <div className='bg-primary flex mt-4 justify-between items-center w-full  '>
-    <div className='ml-11'>
+    <div className='bg-primary'>
+    <div className='container mx-auto flex flex-col mt-3 sm:flex-row  justify-between items-center py-4 space-y-6 sm:space-y-0  '>
+    <div className=''>
       <Image src={"/Images/DdsgnrLibrary.png"} width={120} height={120} alt='abc'/>
     </div>
-    <div className=' flex space-x-6 justify-center items-center '>
+    <div className=' flex flex-wrap bg-secondary justify-center sm:justify-between space-x-4 p-3 px-4 rounded-md '>
       <Link className='text-black ' href={"/"}>Home</Link>
       <Link className='text-black ' href={"/"}>Courses</Link>
       <Link className='text-black ' href={"/"}>Services</Link>
@@ -17,9 +17,9 @@ const Header = () => {
       <Link className='text-black ' href={"/"}>About Us</Link>
       <Link className='text-black ' href={"/"}>Testimonial</Link>
     </div>
-    <div className='space-x-3 ml-64 '>
-      <Button className=' rounded-md border-black border  text-black'>SignUp</Button>
-      <Button className='bg-black border rounded-md  text-primary'>Login</Button>
+    <div className=' flex space-x-3 '>
+      <Button className=' rounded-md border-black border  text-black py-1 px-4 hover:bg-gray-100'>SignUp</Button>
+      <Button className='bg-black border rounded-md py-1 px-4 hover:bg-gray-800 text-primary'>Login</Button>
     </div>
     </div>
     </div>
