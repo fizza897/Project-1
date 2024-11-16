@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 const Header = () => {
   return (
-    <>
+    <div className='container'>
     <div className='bg-primary flex mt-4 justify-between items-center w-full  '>
     <div className='ml-11'>
       <Image src={"/Images/DdsgnrLibrary.png"} width={120} height={120} alt='abc'/>
@@ -22,7 +22,7 @@ const Header = () => {
       <Button className='bg-black border rounded-md  text-primary'>Login</Button>
     </div>
     </div>
-    </>
+    </div>
   )
 }
 
