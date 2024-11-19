@@ -7,7 +7,7 @@ const Header = () => {
     <div className='bg-primary'>
     <div className='container mx-auto flex flex-col mt-3 sm:flex-row  justify-between items-center py-4 space-y-6 sm:space-y-0  '>
     <div className=''>
-      <Image src={"/Images/DdsgnrLibrary.png"} width={120} height={120} alt='abc'/>
+      <Image src={"/Images/DdsgnrLibrary.svg"} width={120} height={120} alt='abc'/>
     </div>
     <div className=' flex flex-wrap bg-secondary justify-center sm:justify-between space-x-4 p-3 px-4 rounded-md '>
       <Link className='text-black ' href={"/"}>Home</Link>
