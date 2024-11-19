@@ -21,12 +21,10 @@ const Header = () => {
       <Link className='text-black ' href={"/"}>Achievement</Link>
       <Link className='text-black ' href={"/"}>About Us</Link>
       <Link className='text-black ' href={"/"}>Testimonial</Link>
-      <div className='space-x-2'>
-
-      <Button className=' rounded-md border-black border  text-black py-1 px-4 hover:bg-gray-100'>SignUp</Button>
-      <Button className='bg-black border rounded-md py-1 px-4 hover:bg-gray-800 text-primary'>Login</Button>
+      <div className='space-x-2  '>
+      <Button className=' '>Login</Button>
+      <Button className='bg-black border w-[95px] h-[40px] rounded-[5px] border-black border border-[1px]  w-[80px] h-[40px] p-[8px] px-[20px]  gap-[8px]  text-black hover:bg-gray-100  rounded-l hover:bg-gray-800 text-primary'>SignUp</Button>
       </div>
-    
     </div>
     </div>
     </div>
