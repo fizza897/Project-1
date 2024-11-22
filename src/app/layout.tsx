@@ -36,7 +36,6 @@ export default function RootLayout({
         >
           <Headline/>
           <Header/>
-          <Photos/> 
         {children}
         <Footer/>
       </body>
