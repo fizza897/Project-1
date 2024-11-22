@@ -6,7 +6,6 @@ import "./globals.css";
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 import Headline from "../../Headline/Headline";
-import Photos from "../../Photos/Photos";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
