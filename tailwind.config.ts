@@ -17,6 +17,9 @@ const config: Config = {
         primary:"#F7F7F7",
         secondary:"#FFFFFF"
       },
+      fontFamily:{
+        roboto:["Roboto"]
+      },
       container:{
         center:true,
         padding:"3rem",
@@ -38,5 +41,6 @@ const config: Config = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
 
 export default config;

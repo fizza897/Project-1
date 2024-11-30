@@ -5,12 +5,11 @@ const Companies = () => {
     <>
     <div className=' bg-primary w-full h-60 flex'>
     <div className='container'>
-        <div className='flex  mt-24'>
-
+        <div className='flex mt-24 gap-4'>
         <div className=''>
-            <h1 className='text-2xl font-bold text-black break-words max-w-xl '>Trusted by 2000+ companies worldwide.</h1>
+            <h1 className='text-2xl font-roboto text-black break-words  '>Trusted by 2000+ companies  worldwide.</h1>
             </div>            
-            <div className=' flex'>
+            <div className='flex  '>
             <Image src={"/Images/AirbnbLogo.svg"} alt='abc' width={123} height={38}/>
             <Image src={"/Images/Second.svg"} alt='abc' width={123} height={38}/>
             <Image src={"/Images/Ipsum.svg"} alt='abc' width={123} height={38}/>

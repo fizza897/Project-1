@@ -1,4 +1,5 @@
 import CarouselSize from "../../components/CarouselSize/CarouselSize";
+import Category from "../../components/Category/Category";
 import Companies from "../../components/Companies/Companies";
 import Hero from "../../components/Hero/Hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <>
     <Hero/>
     <Companies/>
+    <Category/>
     <CarouselSize />
     </>
   );
