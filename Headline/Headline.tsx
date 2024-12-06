@@ -1,27 +1,23 @@
 import React from 'react'
-import { FaLinkedin,FaTwitter,FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
+import { ChevronDown } from 'lucide-react';
 
-
-const Headline = () => {
+const Headline = ({className}:{className:string}) => {
   return (
     <>
-
-    <div className=' mx-auto p-2 bg-secondary border-black border-2'>
-      <div className=' container w-full flex flex-col sm:flex-row justify-between items-center gap-4'>
-        <div className=' flex flex-col sm:flex-row gap-2 sm:gap-4 text-sm sm:text-base items-center sm:text-start'>
-          <p className='text-black font-normal mt-1.5'>Phone Number: 956 742 455 678</p>
-          <p className='text-primary font-medium mt-1.5 hidden sm:block'>|</p>
-          <p className='text-black font-normal mt-1.5'>Email:info@ddsgnr.com</p>
-        </div>
-        <div className=' flex gap-4 justify-center sm:justify-end items-center'>
-          <FaLinkedin size={21} className=' text-black cursor-pointer mt-2.5'/>
-          <FaFacebookF size={21} className=' text-black cursor-pointer mt-2.5'/>
-          <FaInstagram size={21} className=' text-black cursor-pointer mt-2.5'/>
-          <FaTwitter size={21} className=' text-black cursor-pointer mt-2.5'/>
-        </div>
-      </div>
+    <div className='hidden sm:block md:block'>
+    <div className='w-full bg-black h-[48px]'>
+    <div className='bg-black w-[1440px] h-[48px] flex justify-center items-center mx-auto   '>
+<p className='text-white inline-block align-middle ml-72 '>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+    <div className='ml-96 flex mt-3'>
+      <p className='text-white text-center flex'>English
+      <ChevronDown className='inline-block' size={34}  /> 
+      </p>
     </div>
+
+    </div>
+    </div>
+    </div>
+   
     </>
   )
 }

@@ -26,7 +26,7 @@ export default function RootLayout({
       <body
         className={`${roboto.className}  antialiased`}
         >
-          <Headline/>
+          <Headline className="hidden lg:block"/>
           <Header/>
         {children}
         <Footer/>

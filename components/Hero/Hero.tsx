@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       
       <div className='ml-9'>
-        <Image src={"/Images/Hero.svg"} alt='avbc' width={640} height={900} />
+        <Image className='md:max-lg:flex' src={"/Images/Hero.svg"} alt='avbc' width={640} height={900} />
       </div>
       
     </div>

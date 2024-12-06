@@ -20,6 +20,13 @@ const config: Config = {
       fontFamily:{
         roboto:["Roboto"]
       },
+      width:{
+      custom:"1440px",
+      half:"50%"
+      },
+      height:{
+        custom:"48px"
+      },
       container:{
         center:true,
         padding:"3rem",
